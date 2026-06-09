@@ -77,14 +77,14 @@ data = streamlit_js_eval(
     js_expressions="localStorage.getItem('progress')",
     key="get_progress"
 )
-st.write(data)
+#st.write(data)
 
 if data:
     progress = json.loads(data)
 else:
     progress = {}
 
-st.write(progress)
+#st.write(progress)
 
 # count = 0
 
