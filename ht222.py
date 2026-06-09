@@ -255,7 +255,7 @@ st.write(progress)
 # -----------------------------
 count = sum(1 for i in range(5) if progress.get(f"site{i + 1}"))
 
-st.write(f"📊 진행도: {count}/5")
+st.write(f"진행도: {count}/5")
 
 # -----------------------------
 # 메뉴
