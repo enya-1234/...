@@ -270,7 +270,7 @@ page = st.radio(
 # Home
 # -----------------------------
 if page == "Home":
-    st.title("과학자 카드 수집 이벤트")
+    st.title("과학자 카드 수집하기...")
 
     st.write("QR을 스캔해서 5개의 카드를 모으세요!")
 
